@@ -1,0 +1,182 @@
+body{
+
+  background-repeat: repeat-x;
+
+}
+#crossfade {
+    position:absolute;
+    width:100%;
+
+}
+#crossfade img {
+  transform: rotate(90deg);
+  position:absolute;
+  margin-top:140%;
+  margin-left:0;
+  width:100%;
+}
+@keyframes crossfadeInOut {
+    0% {
+    opacity:1;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+
+  #crossfade img.top {
+  animation-name: crossfadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  }
+
+--------------------------
+#crossfade2 {
+  position:relative;
+    width:100%;
+    height:auto;
+}
+#crossfade2 img {
+    transform: rotate(90deg);
+    position:absolute;
+    margin-top:30%;
+    margin-left:0;
+    width:100%;
+
+}
+
+@keyframes crossfade2InOut {
+    0% {
+    opacity:1;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+
+  #crossfade2 img.top2 {
+  animation-name: crossfade2InOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  }
+--------------------------------------------
+#crossfade3 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade3 img {
+  transform: rotate(90deg);
+  position:absolute;
+  margin-top:250%;
+  margin-left:0;
+  width:100%;
+}
+@keyframes crossfade3InOut {
+    0% {
+    opacity:1;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+
+  #crossfade3 img.top3 {
+  animation-name: crossfade3InOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  }
+
+--------------------------------------------
+#crossfade4 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade4 img {
+  transform: rotate(90deg);
+  position:absolute;
+  margin-top:360%;
+  margin-left:0;
+  width:100%;
+}
+@keyframes crossfade4InOut {
+    0% {
+    opacity:1;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+
+  #crossfade4 img.top4 {
+  animation-name: crossfade4InOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  }
+-----------------------------------------
+#crossfade5 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade5 img {
+  transform: rotate(90deg);
+  position:absolute;
+  margin-top:470%;
+  margin-left:0;
+  width:100%;
+}
+@keyframes crossfade5InOut {
+    0% {
+    opacity:1;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+
+  #crossfade5 img.top5 {
+  animation-name: crossfade5InOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  }
+-----------------------------------------
+#crossfade6 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade6 img {
+  transform: rotate(90deg);
+  position:absolute;
+  margin-top:580%;
+  margin-left:0;
+  width:100%;
+}
+@keyframes crossfade6InOut {
+    0% {
+    opacity:1;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+
+  #crossfade6 img.top6 {
+  animation-name: crossfade6InOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  }

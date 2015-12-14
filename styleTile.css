@@ -1,0 +1,145 @@
+body{
+  background-color: white;
+  background-repeat: repeat-x;
+}
+#crossfade {
+    position:absolute;
+    width:100%;
+}
+#crossfade img {
+    position:absolute;
+    margin-top:65%;
+    margin-left:10%;
+    width:80%;
+
+    opacity: 1;
+    -webkit-transition: opacity 1.25s ease;
+    -moz-transition: opacity 1.25s ease;
+    -o-transition: opacity 1.25s ease;
+    -ms-transition: opacity 1.25s ease;
+    transition: opacity 1.25s ease;
+}
+
+#crossfade img.top:hover {
+    opacity:0;
+}
+--------------------------
+#crossfade2 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade2 img {
+
+    position:absolute;
+    margin-top:5%;
+    margin-left:10%;
+    width:80%;
+
+    opacity: 1;
+    -webkit-transition: opacity 1.25s ease-out;
+    -moz-transition: opacity 1.25s ease-out;
+    -o-transition: opacity 1.25s ease-out;
+    -ms-transition: opacity 1.25s ease-out;
+    transition: opacity 1.25s ease-out;
+}
+
+#crossfade2 img.top2:hover {
+    opacity:0;
+}
+--------------------------------------------
+#crossfade3 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade3 img {
+
+    position:absolute;
+    margin-top:125%;
+    margin-left:10%;
+    width:80%;
+
+    opacity: 1;
+    -webkit-transition: opacity 1.25s ease-out;
+    -moz-transition: opacity 1.25s ease-out;
+    -o-transition: opacity 1.25s ease-out;
+    -ms-transition: opacity 1.25s ease-out;
+    transition: opacity 1.25s ease-out;
+}
+
+#crossfade3 img.top3:hover {
+    opacity:0;
+}
+--------------------------------------------
+#crossfade4 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade4 img {
+
+    position:absolute;
+    margin-top:185%;
+    margin-left:10%;
+    width:80%;
+
+    opacity: 1;
+    -webkit-transition: opacity 1.25s ease-out;
+    -moz-transition: opacity 1.25s ease-out;
+    -o-transition: opacity 1.25s ease-out;
+    -ms-transition: opacity 1.25s ease-out;
+    transition: opacity 1.25s ease-out;
+}
+
+#crossfade4 img.top4:hover {
+    opacity:0;
+}
+-----------------------------------------
+#crossfade5 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade5 img {
+
+    position:absolute;
+    margin-top:245%;
+    margin-left:10%;
+    width:80%;
+
+    opacity: 1;
+    -webkit-transition: opacity 1.25s ease-out;
+    -moz-transition: opacity 1.25s ease-out;
+    -o-transition: opacity 1.25s ease-out;
+    -ms-transition: opacity 1.25s ease-out;
+    transition: opacity 1.25s ease-out;
+}
+
+#crossfade5 img.top5:hover {
+    opacity:0;
+}
+-----------------------------------------
+#crossfade6 {
+  position:relative;
+
+    width:100%;
+}
+#crossfade6 img {
+
+    position:absolute;
+    margin-top:305%;
+    margin-left:10%;
+    width:80%;
+
+    opacity: 1;
+    -webkit-transition: opacity 1.25s ease-out;
+    -moz-transition: opacity 1.25s ease-out;
+    -o-transition: opacity 1.25s ease-out;
+    -ms-transition: opacity 1.25s ease-out;
+    transition: opacity 1.25s ease-out;
+}
+
+#crossfade6 img.top6:hover {
+    opacity:0;
+}

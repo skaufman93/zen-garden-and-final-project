@@ -1,0 +1,198 @@
+
+body{
+
+
+  background: linear-gradient(to bottom , gray, blue );
+  background-color:blue;
+  background-repeat: repeat-x;
+
+}
+
+h1{
+
+  font-family:"Lucida Sans Unicode";
+  font-size:80px;
+  position:fixed;
+  left: 10px;
+  color: blue;
+  padding:20px;
+  transition: color 2.5s ease;
+}
+h1:hover{
+  color:gray;
+}
+h2{
+  transition: color 1.5s ease;
+  font-family:"Lucida Sans Unicode";
+  font-size:40px;
+  left: 10px;
+  color: blue;
+  float:right;
+}
+h2:hover{
+  color:red;
+
+}
+
+
+
+.preamble, .participation, .requirements{
+  font-family:"Lucida Sans Unicode";
+  font-size: 20px;
+  width:50%;
+  margin:100px;
+
+
+  background-color:gray;
+  opacity:.75;
+  color:yellow;
+  float:right;
+
+  border: solid;
+  border-color: yellow;
+  padding-top: 5px;
+  padding-bottom:10px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+
+
+}
+
+
+.summary,.explanation,.benefits{
+  font-family:"Lucida Sans Unicode";
+  font-size: 20px;
+  width:50%;
+  margin:100px;
+  background-color: blue;
+  opacity:.55;
+  color:red;
+  float:left;
+
+  border: solid;
+  border-color: red;
+  padding-top: 5px;
+  padding-bottom:10px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+
+
+footer {
+  display:none;
+}
+
+aside {
+  width: 650px;
+  height: 150px;
+  margin-left: 23%;
+  font-size: 7pt;
+  text-align: center;
+  padding: 10px;
+  font-family:"Lucida Sans Unicode";
+  font-size: 20px;
+  float:left;
+
+}
+
+.design-selection,.zen-resources,.design-archives {
+  margin: 10px;
+  padding-right:20px;
+  float: left;
+  width: 200px;
+  background: linear-gradient(to bottom , gray, yellow );
+  opacity:.45;
+  color:blue;
+}
+
+
+
+li {
+  transition: color 1s ease;
+  list-style-position: inherit;
+  color: blue;
+  text-align: left;
+  opacity:.45%;
+
+
+}
+li:hover{
+  color:yellow;
+}
+
+
+
+
+
+
+/*LESS THAN 700px wide
+----------------------------------------------------------------------------*/
+@media all and (max-width: 800px) {
+  aside {
+    display: none;
+}
+
+/*LESS THAN 700px wide
+----------------------------------------------------------------------------*/
+@media all and (max-width: 700px) {
+  /*main 5 boxes*/
+  .preamble, .explanation, .participation, .benefits, .requirements  {
+    margin-left: 200px;
+    width: 350px;
+  }
+  .summary {
+    width: 250px;
+    margin-left: 250px;
+  }
+  h1 {
+    /*border: white solid 1px;*/
+    margin-left: 250px;
+    background-size: 350px;
+  }
+}
+
+/*LESS THAN 600px wide
+----------------------------------------------------------------------------*/
+@media all and (max-width: 600px) {
+  /*main 5 boxes*/
+  .preamble, .explanation, .participation, .benefits, .requirements  {
+    margin-left: 150px;
+    width: 325px;
+  }
+  .summary {
+    width: 225px;
+    margin-left: 200px;
+  }
+
+}
+
+@media all and (max-width: 550px) {
+  /*main 5 boxes*/
+  .preamble, .explanation, .participation, .benefits, .requirements  {
+    margin-left: 100px;
+    width: 300px;
+  }
+  .summary {
+    width: 200px;
+    margin-left: 150px;
+  }
+
+}
+
+/* 500px wide
+----------------------------------------------------------------------------*/
+@media all and (max-width: 500px) {
+  /*main 5 boxes*/
+  .preamble, .explanation, .participation, .benefits, .requirements  {
+    margin-left: 50px;
+    width: 250px;
+    font-size: 10pt;
+  }
+  .summary {
+    display: none;
+  }
+
+}
